@@ -3,23 +3,22 @@ body {
 font-family: 'Dosis', sans-serif;
   height: 100%;
 }
-/*-----------Media Query--------*/
+/*Media Query*/
 @media screen and (max-width: 375px) {
   h1 {
     margin-left: 0.5em;
   }
 }
-/*-----------Estilo general--------*/
+/*Estilo general*/
 h1,
 h2,
 h3,
 h4,
 h5 {
-  /*  prevent Webkit font rendering during transition  */
   -webkit-transform: translateZ(0px);
   transform: translateZ(0px);
 }
-
+/*Títulos*/
 h1 {
   font-weight: 700;
 }
@@ -40,7 +39,7 @@ h3 {
   font-weight: 100;
   color: #555;
 }
-
+/*Menu*/
 ul {
   list-style: none;
 }
@@ -64,7 +63,7 @@ p {
   color: #777;
   padding: 3em 0;
 }
-/*-----------Header--------*/
+/*Header*/
 .header {
   position: fixed;
   color: #fff;
@@ -153,4 +152,70 @@ p {
   line-height: 2;
   margin: auto;
   text-align: left;
+}
+
+/*FOOTER*/
+footer {
+	width: 100%;
+	background-color:#2D2D2D;
+	color: white;
+}
+
+.container-body {
+	display: flex;
+}
+
+.column-1 {
+	max-width: 400px;
+}
+
+.column-1 h1 {
+	font-size: 20px;
+	padding: 3%;
+}
+
+.column-2 {
+	max-width: 400px;
+	padding: 0% 0% 1% 63%;
+}
+.column-2 h1 {
+	font-size: 22px;
+}
+
+.column-2 li {
+	display: inline-block;
+	float: right;
+}
+
+.column-2 li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-size: 15px;
+}
+/*Media Query*/
+@media screen and (min-width:870px) {
+  main#maincontent .scrollmagic-pin-spacer {
+    min-height: 4600px !important;
+  }
+}
+
+@media screen and (max-width:869px) {
+  main#maincontent .scrollmagic-pin-spacer {
+    min-height: 4000px !important;
+  }
+}
+
+footer {
+  text-align: center;
+}
+small {
+  color:white;
+  display:block;
+}
+footer a {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
 }
