@@ -68,6 +68,8 @@ nav a {
   color: inherit;
   padding: 1rem;
 }
+/*PORTADA*/
+
 h2 {
   font-family: 'Dosis', sans-serif;
   font-size: 8vmin;
@@ -76,6 +78,11 @@ h2 {
   mix-blend-mode: screen;
   color: #fff;
   font-weight: 100;
+}
+
+h2 a {
+  text-decoration: none;
+  color: inherit;
 }
 /*VIDEO*/
 #videocontainer {

@@ -38,17 +38,22 @@ h1 {
   font-size: 2rem;
   width: 100%;
   letter-spacing: .5rem;
+  z-index:999;
 }
+
 h1 a {
   text-decoration: none;
   color: inherit;
+  cursor:pointer;
 }
+nav {margin:10px;}
 nav a {
   font-family: 'Dosis', sans-serif;
   font-size: 1.4em;
   text-decoration: none;
   color: inherit;
-  padding: 1rem;
+  padding: 0.5rem;
+  margin:2%;
 }
 
 /*EFECTOS DE IMAGEN Y DESCRIPCIONES*/
@@ -247,6 +252,7 @@ section {
 /*FOOTER*/
 footer {
   text-align:center;
+  color: white;
 }
 
 small {
@@ -259,3 +265,5 @@ footer a {
   font-size: 1rem;
   color: white;
 }
+
+footer i {padding: 10px 5px;}
